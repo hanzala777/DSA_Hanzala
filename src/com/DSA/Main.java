@@ -1,4 +1,7 @@
 package com.DSA;
+
+import java.util.ArrayList;
+
 public class Main {
 
 //*ARRAY*
@@ -15,13 +18,30 @@ public class Main {
             System.out.println(number[i]);
         }
 */
+/*
         Array numbers=new Array(4);
         numbers.insert(10);
         numbers.insert(20);
         numbers.insert(30);
         numbers.insert(40);
-        numbers.removeAt(3);
+        numbers.removeAt(1);
+        System.out.println(numbers.indexOf(10));
         numbers.print();
+*/
+        ArrayList<Integer> list=new ArrayList<>();
+        list.add(10);
+        list.add(20);
+        list.add(30);
+        System.out.println(list.get(2));
+        System.out.println(list);
+        /*
+        Array is the simplest Data Structure
+        Static vs Dynamic
+        ArrayList
+        Runtime complexities:
+           lookUp by index --> O(1)
+           lookUp by Value, Insert, Delete --> O(n)
+         */
     }
 }
 

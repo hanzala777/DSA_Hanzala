@@ -31,7 +31,7 @@ public class Array{
         */
     }
     public void removeAt(int index){
-            //Validate the index
+        //Validate the index
         int[] newItems = new int[items.length - 1];
         //Shift the items to the left to fill the hole
         for (int i = 0, k = 0; i < items.length; i++) {
@@ -41,5 +41,18 @@ public class Array{
             newItems[k++]=items[i];
         }
         items=newItems;
+    }
+    public int indexOf(int item){
+        //if we find it, return index
+        for(int i=0;i<count;i++){
+            if (items[i] == item)
+                return i;
+        }
+        //otherwise, return -1
+        return -1;
+        /*
+        Best case time complexity is O(1)
+        Worst case time complexity is O(n)
+        */
     }
 }
