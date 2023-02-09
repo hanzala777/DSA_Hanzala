@@ -1,6 +1,7 @@
-package com.DSA;
+package com.DSA.Arrays;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Main {
 
@@ -18,7 +19,7 @@ public class Main {
             System.out.println(number[i]);
         }
 */
-/*
+
         Array numbers=new Array(4);
         numbers.insert(10);
         numbers.insert(20);
@@ -27,14 +28,19 @@ public class Main {
         numbers.removeAt(1);
         System.out.println(numbers.indexOf(10));
         numbers.print();
-*/
-        ArrayList<Integer> list=new ArrayList<>();
-        list.add(10);
-        list.add(20);
-        list.add(30);
-        System.out.println(list.get(2));
+
+/*
+        ArrayList<ArrayList<Integer>> list=new ArrayList<>();
+        Scanner in = new Scanner(System.in);
+        for(int i=0;i<3;i++)
+            list.add(new ArrayList<>());
+        for(int i=0;i<3;i++){
+            for(int j=0;j<3;j++)
+                list.get(i).add(in.nextInt());
+        }
         System.out.println(list);
-        /*
+*/
+/*
         Array is the simplest Data Structure
         Static vs Dynamic
         ArrayList

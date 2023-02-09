@@ -1,4 +1,5 @@
-package com.DSA;
+package com.DSA.Arrays;
+//Array :-
 public class Array{
     private int[] items;
     private int count;
@@ -6,9 +7,11 @@ public class Array{
         items=new int[size];
     }
     public void print(){
-        for(int i=0;i< items.length;i++){
-            System.out.println(items[i]);
-        }
+//        for(int i=0;i< items.length;i++){
+//            System.out.println(items[i]);
+//        }
+        for(int a: items)
+            System.out.println(a);
     }
     public void insert(int item){
         //If the array is full resize it
@@ -56,3 +59,13 @@ public class Array{
         */
     }
 }
+/*
+        Array numbers=new Array(4);
+        numbers.insert(10);
+        numbers.insert(20);
+        numbers.insert(30);
+        numbers.insert(40);
+        numbers.removeAt(1);
+        System.out.println(numbers.indexOf(10));
+        numbers.print();
+*/
