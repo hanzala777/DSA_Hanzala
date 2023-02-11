@@ -3,10 +3,8 @@ package com.DSA.BinarySearch;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class BiSearch {
+public class OrderAgnosticBS {
     public static void main(String[] args) {
-        //Assuming the given array is sorted in Ascending order...
-        //Worst case time complexity -> O(log n)
         Scanner sc=new Scanner(System.in);
         System.out.println("-> Enter the Array:");
         int[] arr=new int[5];
@@ -15,15 +13,35 @@ public class BiSearch {
             arr[i]=sc.nextInt();
         //printing an array
         System.out.println(Arrays.toString(arr));
-
+        int start=0,end= arr.length-1;
         //Linear search
         System.out.println("-> Enter the element to search :");
         int item=sc.nextInt();
-        int ans=binarySearch(arr,item);
-        if(ans==-1)
+        int ans;
+        if(arr[start]>arr[end]) {
+            ans = binarySearch1(arr, item);
+        }
+        else {
+            ans = binarySearch(arr, item);
+        }
+        if (ans == -1)
             System.out.println("-> Number Not Found!!");
         else
             System.out.println("-> " + item + " found at Index " + ans );
+    }
+    static int binarySearch1(int[] arr,int target){
+        int start=0;
+        int end= arr.length-1;
+        while(start<=end){
+            int mid=(start+end)/2;
+            if(target<arr[mid])
+                start=mid+1;
+            else if (target>arr[mid])
+                end=mid-1;
+            else
+                return mid;
+        }
+        return -1;
     }
     static int binarySearch(int[] arr,int item){
         int start=0,end=arr.length-1;

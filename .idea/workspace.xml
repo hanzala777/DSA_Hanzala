@@ -8,7 +8,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA Array&#10;Linear Search">
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/LinkedLists/Linkedlist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/BinarySearch/BiSearch1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/BinarySearch/Ceiling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/BinarySearch/CharCieling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/BinarySearch/Floor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/BinarySearch/OrderAgnosticBS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/BinarySearch/OrderAgnosticBS1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DSA/BinarySearch/BiSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSA/BinarySearch/BiSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +61,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BiSearch">
-    <configuration name="BiSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.BinarySearch.BiSearch" />
+  <component name="RunManager" selected="Application.CharCieling">
+    <configuration name="Ceiling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.BinarySearch.Ceiling" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -68,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EvenDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.LinearSearch.EvenDigit" />
+    <configuration name="CharCieling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.BinarySearch.CharCieling" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSA.LinearSearch.*" />
+          <option name="PATTERN" value="com.DSA.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.LinearSearch.LinearSearch" />
+    <configuration name="Floor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.BinarySearch.Floor" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSA.LinearSearch.*" />
+          <option name="PATTERN" value="com.DSA.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxWealth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.LinearSearch.MaxWealth" />
+    <configuration name="OrderAgnosticBS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.BinarySearch.OrderAgnosticBS" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSA.LinearSearch.*" />
+          <option name="PATTERN" value="com.DSA.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Search2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.LinearSearch.Search2D" />
+    <configuration name="OrderAgnosticBS1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.BinarySearch.OrderAgnosticBS1" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSA.LinearSearch.*" />
+          <option name="PATTERN" value="com.DSA.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BiSearch" />
-        <item itemvalue="Application.MaxWealth" />
-        <item itemvalue="Application.EvenDigit" />
-        <item itemvalue="Application.Search2D" />
-        <item itemvalue="Application.LinearSearch" />
+        <item itemvalue="Application.CharCieling" />
+        <item itemvalue="Application.Floor" />
+        <item itemvalue="Application.Ceiling" />
+        <item itemvalue="Application.OrderAgnosticBS1" />
+        <item itemvalue="Application.OrderAgnosticBS" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676118410240</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="DSA Array&#10;Linear Search">
+      <created>1676118700307</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676118700307</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -3,10 +3,8 @@ package com.DSA.BinarySearch;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class BiSearch {
+public class OrderAgnosticBS1 {
     public static void main(String[] args) {
-        //Assuming the given array is sorted in Ascending order...
-        //Worst case time complexity -> O(log n)
         Scanner sc=new Scanner(System.in);
         System.out.println("-> Enter the Array:");
         int[] arr=new int[5];
@@ -19,25 +17,36 @@ public class BiSearch {
         //Linear search
         System.out.println("-> Enter the element to search :");
         int item=sc.nextInt();
-        int ans=binarySearch(arr,item);
+        int ans=orderAgnosticBS(arr,item);
         if(ans==-1)
             System.out.println("-> Number Not Found!!");
         else
-            System.out.println("-> " + item + " found at Index " + ans );
+            System.out.println("-> " + item + " found at Index " + ans);
     }
-    static int binarySearch(int[] arr,int item){
+    static int orderAgnosticBS(int[] arr,int item){
         int start=0,end=arr.length-1;
+        //find whether the array is sorted in ascending or descending
+        boolean isAsc=arr[start]<arr[end];
+
         while(start <=end){
             //find the middle element
             int middle=start+(end-start)/2;
-            if(item<arr[middle]){
-                end=middle-1;
-            }
-            else if(item>arr[middle]){
-                start=middle + 1;
-            }
-            else
+
+            if(arr[middle] == item)
                 return middle;
+
+            if(isAsc){
+                if(item<arr[middle])
+                    end=middle-1;
+                else
+                    start=middle + 1;
+            }
+            else{
+                if(item > arr[middle])
+                    end=middle-1;
+                else
+                    start=middle + 1;
+            }
         }
         return -1;
     }
