@@ -7,18 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA Array">
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/BinarySearch/BiSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/LinearSearch/EvenDigit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/LinearSearch/LinearSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/LinearSearch/MaxWealth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/LinearSearch/Search2D.java" afterDir="false" />
+    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA Array&#10;Linear Search">
       <change afterPath="$PROJECT_DIR$/src/com/DSA/LinkedLists/Linkedlist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/LinkedLists/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DSA/Arrays/Max.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSA/LinearSearch/Max.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DSA/Arrays/MultiDArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSA/LinearSearch/MultiDArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DSA/Arrays/Swap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSA/LinearSearch/Swap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675974570470</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="DSA Array&#10;Linear Search">
+      <created>1676118410240</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676118410240</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,7 +205,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="DSA Array" />
-    <option name="LAST_COMMIT_MESSAGE" value="DSA Array" />
+    <MESSAGE value="DSA Array&#10;Linear Search" />
+    <option name="LAST_COMMIT_MESSAGE" value="DSA Array&#10;Linear Search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
