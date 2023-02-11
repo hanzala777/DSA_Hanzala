@@ -7,16 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA Array&#10;Linear Search">
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/BinarySearch/BiSearch1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/BinarySearch/Ceiling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/BinarySearch/CharCieling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/BinarySearch/Floor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/BinarySearch/OrderAgnosticBS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/BinarySearch/OrderAgnosticBS1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DSA/BinarySearch/BiSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSA/BinarySearch/BiSearch.java" afterDir="false" />
-    </list>
+    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA Array&#10;Linear Search" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -202,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676118700307</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="DSA Array&#10;Linear Search">
+      <created>1676143200797</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676143200797</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
