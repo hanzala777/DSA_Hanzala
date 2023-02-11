@@ -1,4 +1,4 @@
-package com.DSA.Arrays;
+package com.DSA.LinearSearch;
 
 import java.util.Scanner;
 
@@ -10,9 +10,11 @@ public class Max {
             arr[i]=sc.nextInt();
         for(int a:arr)
             System.out.print(a + " ");
-
+        System.out.println("Enter the range to search :");
+        int start= sc.nextInt();
+        int end=sc.nextInt();
         System.out.println("\nMAX Value is:"+max(arr));
-        System.out.println(maxRange(arr,1,4));
+        System.out.println(maxRange(arr,start,end));
     }
     static int max(int[] arr){
         int maxVal=arr[0];

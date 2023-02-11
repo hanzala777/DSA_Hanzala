@@ -8,17 +8,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA Array">
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Arrays/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Arrays/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Arrays/Max.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Arrays/MultiDArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Arrays/Swap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/BinarySearch/BiSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/LinearSearch/EvenDigit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/LinearSearch/LinearSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/LinearSearch/MaxWealth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/LinearSearch/Search2D.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/DSA/LinkedLists/Linkedlist.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/DSA/LinkedLists/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DSA/Array.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DSA/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DSA/Arrays/Max.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSA/LinearSearch/Max.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DSA/Arrays/MultiDArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSA/LinearSearch/MultiDArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DSA/Arrays/Swap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSA/LinearSearch/Swap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +35,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/com/DSA/LinearSearch/EvenDigit.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -49,25 +52,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TODO_SCOPE": "All Places",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propCompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Swap">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.MultiDArray.Main" />
+}</component>
+  <component name="RunManager" selected="Application.BiSearch">
+    <configuration name="BiSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.BinarySearch.BiSearch" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSA.MultiDArray.*" />
+          <option name="PATTERN" value="com.DSA.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Max" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Arrays.Max" />
+    <configuration name="EvenDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.LinearSearch.EvenDigit" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSA.Arrays.*" />
+          <option name="PATTERN" value="com.DSA.LinearSearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiDArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Arrays.MultiDArray" />
+    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.LinearSearch.LinearSearch" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSA.Arrays.*" />
+          <option name="PATTERN" value="com.DSA.LinearSearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Swap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Arrays.Swap" />
+    <configuration name="MaxWealth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.LinearSearch.MaxWealth" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSA.Arrays.*" />
+          <option name="PATTERN" value="com.DSA.LinearSearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.DSA.Arrays.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Arrays.Main" />
+    <configuration name="Search2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.LinearSearch.Search2D" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSA.Arrays.*" />
+          <option name="PATTERN" value="com.DSA.LinearSearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Swap" />
-        <item itemvalue="Application.Max" />
-        <item itemvalue="Application.MultiDArray" />
-        <item itemvalue="Application.com.DSA.Arrays.Main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.BiSearch" />
+        <item itemvalue="Application.MaxWealth" />
+        <item itemvalue="Application.EvenDigit" />
+        <item itemvalue="Application.Search2D" />
+        <item itemvalue="Application.LinearSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675883587941</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="DSA Array">
+      <created>1675974570470</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675974570470</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
