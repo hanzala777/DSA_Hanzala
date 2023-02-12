@@ -29,6 +29,8 @@ public class OrderAgnosticBS {
         else
             System.out.println("-> " + item + " found at Index " + ans );
     }
+
+
     static int binarySearch1(int[] arr,int target){
         int start=0;
         int end= arr.length-1;
