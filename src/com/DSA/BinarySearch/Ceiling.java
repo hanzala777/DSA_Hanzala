@@ -6,6 +6,7 @@ public class Ceiling {
         int[] arr={12, 23, 34, 45, 56, 67};
         System.out.println(ceiling(arr,10));
     }
+
     //Assume the array is sorted in Ascending order...
     static int ceiling(int[] arr,int target){
         int start=0,end= arr.length-1;

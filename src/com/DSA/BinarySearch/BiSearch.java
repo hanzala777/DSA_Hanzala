@@ -25,6 +25,7 @@ public class BiSearch {
         else
             System.out.println("-> " + item + " found at Index " + ans );
     }
+
     static int binarySearch(int[] arr,int item){
         int start=0,end=arr.length-1;
         while(start <=end){
