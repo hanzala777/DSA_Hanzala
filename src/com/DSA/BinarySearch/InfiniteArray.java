@@ -2,7 +2,7 @@ package com.DSA.BinarySearch;
 
 public class InfiniteArray {
     public static void main(String[] args) {
-        int[] arr={1,12,23,44,55,56,67,68,69,70,81,82,93,114};
+        int[] arr={1,12,23,44,55,56,67,68,69,70,81,82,93,114,132};
         int target = 93;
         System.out.println(target + " Found at Index: " + ans(arr,target));
     }
