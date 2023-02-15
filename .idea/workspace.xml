@@ -7,10 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA Array&#10;Binary Search">
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/BinarySearch/InfiniteArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA Array&#10;Linear Search" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +52,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.InfiniteArray">
+  <component name="RunManager" selected="Application.CharCieling">
     <configuration name="Ceiling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.DSA.BinarySearch.Ceiling" />
       <module name="DSA_Hanzala" />
@@ -95,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FstAndLstOcc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.BinarySearch.FstAndLstOcc" />
+    <configuration name="OrderAgnosticBS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.BinarySearch.OrderAgnosticBS" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InfiniteArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.BinarySearch.InfiniteArray" />
+    <configuration name="OrderAgnosticBS1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.BinarySearch.OrderAgnosticBS1" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -123,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InfiniteArray" />
-        <item itemvalue="Application.FstAndLstOcc" />
         <item itemvalue="Application.CharCieling" />
         <item itemvalue="Application.Floor" />
         <item itemvalue="Application.Ceiling" />
+        <item itemvalue="Application.OrderAgnosticBS1" />
+        <item itemvalue="Application.OrderAgnosticBS" />
       </list>
     </recent_temporary>
   </component>
@@ -203,21 +200,7 @@
       <option name="project" value="LOCAL" />
       <updated>1676143200797</updated>
     </task>
-    <task id="LOCAL-00010" summary="DSA Array&#10;Binary Search">
-      <created>1676143560383</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1676143560383</updated>
-    </task>
-    <task id="LOCAL-00011" summary="DSA Array&#10;Binary Search">
-      <created>1676228245216</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1676228245216</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,8 +218,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="DSA Array" />
     <MESSAGE value="DSA Array&#10;Linear Search" />
-    <MESSAGE value="DSA Array&#10;Binary Search" />
-    <option name="LAST_COMMIT_MESSAGE" value="DSA Array&#10;Binary Search" />
+    <option name="LAST_COMMIT_MESSAGE" value="DSA Array&#10;Linear Search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -247,10 +229,5 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DSA_Hanzala$InfiniteArray.ic" NAME="InfiniteArray Coverage Results" MODIFIED="1676459632825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.DSA.BinarySearch.*</FILTER>
-    </SUITE>
   </component>
 </project>
