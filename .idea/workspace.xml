@@ -8,10 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA Array&#10;Binary Search">
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/BinarySearch/PeakIndexInMountainArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/BinarySearch/SearchInMountainArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/BinarySearch/BSRotatedDuplicateElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/BinarySearch/BSRotatedSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/BinarySearch/RotationCount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DSA/BinarySearch/InfiniteArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSA/BinarySearch/InfiniteArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,9 +62,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SearchInMountainArray">
-    <configuration name="CharCieling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.BinarySearch.CharCieling" />
+  <component name="RunManager" selected="Application.RotationCount">
+    <configuration name="BSRotatedDuplicateElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.BinarySearch.BSRotatedDuplicateElements" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -76,8 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Floor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.BinarySearch.Floor" />
+    <configuration name="BSRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.BinarySearch.BSRotatedSortedArray" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PeakIndexInMountainArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.BinarySearch.PeakIndexInMountainArray" />
+    <configuration name="RotationCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.BinarySearch.RotationCount" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -130,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RotationCount" />
+        <item itemvalue="Application.BSRotatedDuplicateElements" />
+        <item itemvalue="Application.BSRotatedSortedArray" />
         <item itemvalue="Application.SearchInMountainArray" />
         <item itemvalue="Application.OrderAgnosticBS1" />
-        <item itemvalue="Application.PeakIndexInMountainArray" />
-        <item itemvalue="Application.CharCieling" />
-        <item itemvalue="Application.Floor" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676460253441</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="DSA Array&#10;Binary Search">
+      <created>1676494594406</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676494594406</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
