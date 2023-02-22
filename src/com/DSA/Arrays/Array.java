@@ -10,7 +10,7 @@ public class Array{
 //        for(int i=0;i< items.length;i++){
 //            System.out.println(items[i]);
 //        }
-        for(int a: items)
+        for(int a : items)
             System.out.println(a);
     }
     public void insert(int item){
