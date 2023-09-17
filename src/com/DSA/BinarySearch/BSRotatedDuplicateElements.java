@@ -2,7 +2,7 @@ package com.DSA.BinarySearch;
 
 public class BSRotatedDuplicateElements {
     public static void main(String[] args) {
-        int[] arr={2,2,2,2,9,2,2,2};
+        int[] arr={2,2,2,2,9,2,2,2,2};
         int target=7;
         System.out.println(searchRSA(arr,target));
     }
