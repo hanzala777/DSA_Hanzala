@@ -27,15 +27,15 @@ public class BiSearch {
     }
 
     static int binarySearch(int[] arr,int item){
-        int start=0,end=arr.length-1;
-        while(start <=end){
+        int start = 0,end=arr.length-1;
+        while(start <= end){
             //find the middle element
-            int middle=start+(end-start)/2;
-            if(item<arr[middle]){
-                end=middle-1;
+            int middle = start + (end - start) / 2;
+            if(item < arr[middle]){
+                end = middle - 1;
             }
-            else if(item>arr[middle]){
-                start=middle + 1;
+            else if(item > arr[middle]){
+                start = middle + 1;
             }
             else
                 return middle;
