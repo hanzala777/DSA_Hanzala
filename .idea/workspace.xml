@@ -7,7 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA Array&#10;continue" />
+    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA Array&#10;leetcode">
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/sort/FirstMissingPositive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/sort/SetMismatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,9 +62,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.excludes&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.InsertionSort">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.sort.BubbleSort" />
+  <component name="RunManager" selected="Application.FirstMissingPositive">
+    <configuration name="AllDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.sort.AllDuplicates" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -72,8 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.sort.InsertionSort" />
+    <configuration name="CyclicSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.sort.CyclicSort" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -85,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxWealth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.LinearSearch.MaxWealth" />
+    <configuration name="Duplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.sort.Duplicate" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSA.LinearSearch.*" />
+          <option name="PATTERN" value="com.DSA.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Search2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.LinearSearch.Search2D" />
+    <configuration name="FirstMissingPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.sort.FirstMissingPositive" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSA.LinearSearch.*" />
+          <option name="PATTERN" value="com.DSA.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,8 +115,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.sort.SelectionSort" />
+    <configuration name="SetMismatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.sort.SetMismatch" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -126,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.Search2D" />
-        <item itemvalue="Application.MaxWealth" />
+        <item itemvalue="Application.FirstMissingPositive" />
+        <item itemvalue="Application.SetMismatch" />
+        <item itemvalue="Application.Duplicate" />
+        <item itemvalue="Application.AllDuplicates" />
+        <item itemvalue="Application.CyclicSort" />
       </list>
     </recent_temporary>
   </component>
@@ -304,7 +308,28 @@
       <option name="project" value="LOCAL" />
       <updated>1695005870714</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="DSA Array&#10;continue">
+      <created>1695006008227</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1695006008227</updated>
+    </task>
+    <task id="LOCAL-00025" summary="DSA Array&#10;continue">
+      <created>1695090757818</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1695090757818</updated>
+    </task>
+    <task id="LOCAL-00026" summary="DSA Array&#10;leetcode">
+      <created>1695098507851</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1695098507851</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -324,7 +349,8 @@
     <MESSAGE value="DSA Array&#10;Binary Search" />
     <MESSAGE value="DSA Array" />
     <MESSAGE value="DSA Array&#10;continue" />
-    <option name="LAST_COMMIT_MESSAGE" value="DSA Array&#10;continue" />
+    <MESSAGE value="DSA Array&#10;leetcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="DSA Array&#10;leetcode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
