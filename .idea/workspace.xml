@@ -7,7 +7,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA Array&#10;leetcode" />
+    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA Array">
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/Patterns/Pattern1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/Patterns/Pattern2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/Patterns/Pattern3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/Patterns/Pattern4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/Patterns/Pattern5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/Patterns/Pattern6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/Patterns/Pattern7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/Patterns/Pattern8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/Patterns/Pattern9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,13 +69,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.excludes&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StrictlyPalindromic">
-    <configuration name="Duplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Sort.Duplicate" />
+  <component name="RunManager" selected="Application.Pattern9">
+    <configuration name="Pattern5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.Patterns.Pattern5" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSA.Sort.*" />
+          <option name="PATTERN" value="com.DSA.Patterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstMissingPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Sort.FirstMissingPositive" />
+    <configuration name="Pattern6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.Patterns.Pattern6" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSA.Sort.*" />
+          <option name="PATTERN" value="com.DSA.Patterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetMismatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Sort.SetMismatch" />
+    <configuration name="Pattern7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.Patterns.Pattern7" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSA.Sort.*" />
+          <option name="PATTERN" value="com.DSA.Patterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrictlyPalindromic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Strings.StrictlyPalindromic" />
+    <configuration name="Pattern8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.Patterns.Pattern8" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSA.Strings.*" />
+          <option name="PATTERN" value="com.DSA.Patterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Strings.palindrome" />
+    <configuration name="Pattern9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.Patterns.Pattern9" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSA.Strings.*" />
+          <option name="PATTERN" value="com.DSA.Patterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StrictlyPalindromic" />
-        <item itemvalue="Application.palindrome" />
-        <item itemvalue="Application.FirstMissingPositive" />
-        <item itemvalue="Application.SetMismatch" />
-        <item itemvalue="Application.Duplicate" />
+        <item itemvalue="Application.Pattern9" />
+        <item itemvalue="Application.Pattern8" />
+        <item itemvalue="Application.Pattern7" />
+        <item itemvalue="Application.Pattern6" />
+        <item itemvalue="Application.Pattern5" />
       </list>
     </recent_temporary>
   </component>
@@ -339,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695270318760</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="DSA Array">
+      <created>1695307298788</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1695307298788</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -357,10 +375,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="DSA Array&#10;Linear Search" />
     <MESSAGE value="DSA Array&#10;Binary Search" />
-    <MESSAGE value="DSA Array" />
     <MESSAGE value="DSA Array&#10;continue" />
     <MESSAGE value="DSA Array&#10;leetcode" />
-    <option name="LAST_COMMIT_MESSAGE" value="DSA Array&#10;leetcode" />
+    <MESSAGE value="DSA Array" />
+    <option name="LAST_COMMIT_MESSAGE" value="DSA Array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
