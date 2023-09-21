@@ -8,8 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA Array&#10;leetcode">
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/sort/FirstMissingPositive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/sort/SetMismatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/strings/StrictlyPalindromic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/strings/pallindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,33 +62,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.excludes&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FirstMissingPositive">
-    <configuration name="AllDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.sort.AllDuplicates" />
-      <module name="DSA_Hanzala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.DSA.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CyclicSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.sort.CyclicSort" />
-      <module name="DSA_Hanzala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.DSA.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StrictlyPalindromic">
     <configuration name="Duplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.DSA.sort.Duplicate" />
       <module name="DSA_Hanzala" />
@@ -128,13 +102,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StrictlyPalindromic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.strings.StrictlyPalindromic" />
+      <module name="DSA_Hanzala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.DSA.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pallindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.strings.pallindrome" />
+      <module name="DSA_Hanzala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.DSA.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StrictlyPalindromic" />
+        <item itemvalue="Application.pallindrome" />
         <item itemvalue="Application.FirstMissingPositive" />
         <item itemvalue="Application.SetMismatch" />
         <item itemvalue="Application.Duplicate" />
-        <item itemvalue="Application.AllDuplicates" />
-        <item itemvalue="Application.CyclicSort" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695098507851</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="DSA Array&#10;leetcode">
+      <created>1695102349997</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1695102349997</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
