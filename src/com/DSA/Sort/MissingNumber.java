@@ -1,6 +1,4 @@
-package com.DSA.sort;
-
-import java.util.Arrays;
+package com.DSA.Sort;
 
 class MissingNumber {
     public static void main(String[] args) {

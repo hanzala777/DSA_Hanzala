@@ -1,14 +1,17 @@
-package com.DSA.sort;
+package com.DSA.Sort;
 
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.List;
 
-class Duplicate {
+//ASKED IN GOOGLE
+class AllMissingNumbers {
     public static void main(String[] args) {
-        int[] num = {1,3,4,2,2};
-        int ans=findDuplicate(num);
+        int[] num = {4,3,2,7,8,2,3,1};
+        List<Integer> ans= new ArrayList<>();
+        ans=findDisappearedNumbers(num);
         System.out.println(ans);
     }
-    public static int findDuplicate(int[] nums) {
+    public static List<Integer> findDisappearedNumbers(int[] nums) {
         int i = 0;
         while (i < nums.length) {
             int correct = nums[i] - 1;
@@ -18,11 +21,12 @@ class Duplicate {
                 i++;
         }
 
-        for(int index=0; index<nums.length; index++){
+        List<Integer> ans=new ArrayList<>();
+        for(int index=0; index< nums.length; index++){
             if(nums[index] != index+1)
-                return nums[index];
+                ans.add(index+1);
         }
-        return -1;
+        return ans;
     }
     static void swap(int[] arr, int first, int second){
         int temp = arr[first];

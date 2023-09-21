@@ -1,18 +1,14 @@
-package com.DSA.sort;
+package com.DSA.Sort;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
-//ASKED IN GOOGLE
-class AllMissingNumbers {
+class SetMismatch {
     public static void main(String[] args) {
-        int[] num = {4,3,2,7,8,2,3,1};
-        List<Integer> ans= new ArrayList<>();
-        ans=findDisappearedNumbers(num);
-        System.out.println(ans);
+        int[] num = {1,3,4,2,2};
+        int[] ans=findErrorNums(num);
+        System.out.println(Arrays.toString(ans));
     }
-    public static List<Integer> findDisappearedNumbers(int[] nums) {
+    public static int[] findErrorNums(int[] nums) {
         int i = 0;
         while (i < nums.length) {
             int correct = nums[i] - 1;
@@ -21,13 +17,11 @@ class AllMissingNumbers {
             else
                 i++;
         }
-
-        List<Integer> ans=new ArrayList<>();
-        for(int index=0; index< nums.length; index++){
+        for(int index=0; index<nums.length; index++){
             if(nums[index] != index+1)
-                ans.add(index+1);
+                return new int[] {nums[index],index+1};
         }
-        return ans;
+        return new int[]{-1,-1};
     }
     static void swap(int[] arr, int first, int second){
         int temp = arr[first];
