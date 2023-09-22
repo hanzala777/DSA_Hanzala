@@ -7,16 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA Array">
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Patterns/Pattern1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Patterns/Pattern2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Patterns/Pattern3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Patterns/Pattern4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Patterns/Pattern5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Patterns/Pattern6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Patterns/Pattern7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Patterns/Pattern8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Patterns/Pattern9.java" afterDir="false" />
+    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA Strings&#10;Patterns">
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/RBinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/Recursion1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,39 +63,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.excludes&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Pattern9">
-    <configuration name="Pattern5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Patterns.Pattern5" />
+  <component name="RunManager" selected="Application.RBinarySearch">
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.Recursion.Fibonacci" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSA.Patterns.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Pattern6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Patterns.Pattern6" />
-      <module name="DSA_Hanzala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.DSA.Patterns.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Pattern7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Patterns.Pattern7" />
-      <module name="DSA_Hanzala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.DSA.Patterns.*" />
+          <option name="PATTERN" value="com.DSA.Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,13 +103,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RBinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.Recursion.RBinarySearch" />
+      <module name="DSA_Hanzala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.DSA.Recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Recursion1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.Recursion.Recursion1" />
+      <module name="DSA_Hanzala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.DSA.Recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RBinarySearch" />
+        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="Application.Recursion1" />
         <item itemvalue="Application.Pattern9" />
         <item itemvalue="Application.Pattern8" />
-        <item itemvalue="Application.Pattern7" />
-        <item itemvalue="Application.Pattern6" />
-        <item itemvalue="Application.Pattern5" />
       </list>
     </recent_temporary>
   </component>
@@ -357,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695307298788</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="DSA Strings&#10;Patterns">
+      <created>1695316211357</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1695316211357</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -378,7 +379,8 @@
     <MESSAGE value="DSA Array&#10;continue" />
     <MESSAGE value="DSA Array&#10;leetcode" />
     <MESSAGE value="DSA Array" />
-    <option name="LAST_COMMIT_MESSAGE" value="DSA Array" />
+    <MESSAGE value="DSA Strings&#10;Patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="DSA Strings&#10;Patterns" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
