@@ -7,10 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA Strings&#10;Patterns">
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/RBinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/Recursion1.java" afterDir="false" />
+    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA Recursion">
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/LinearSearch/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/Strings/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +62,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.excludes&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RBinarySearch">
+  <component name="RunManager" selected="Application.LengthOfLongestSubstring">
     <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.DSA.Recursion.Fibonacci" />
       <module name="DSA_Hanzala" />
@@ -77,25 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pattern8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Patterns.Pattern8" />
+    <configuration name="LengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.Strings.LengthOfLongestSubstring" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSA.Patterns.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Pattern9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Patterns.Pattern9" />
-      <module name="DSA_Hanzala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.DSA.Patterns.*" />
+          <option name="PATTERN" value="com.DSA.Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,13 +115,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.LinearSearch.TwoSum" />
+      <module name="DSA_Hanzala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.DSA.LinearSearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LengthOfLongestSubstring" />
+        <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.RBinarySearch" />
         <item itemvalue="Application.Fibonacci" />
         <item itemvalue="Application.Recursion1" />
-        <item itemvalue="Application.Pattern9" />
-        <item itemvalue="Application.Pattern8" />
       </list>
     </recent_temporary>
   </component>
@@ -358,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695316211357</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="DSA Recursion">
+      <created>1695358812054</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1695358812054</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -380,7 +386,8 @@
     <MESSAGE value="DSA Array&#10;leetcode" />
     <MESSAGE value="DSA Array" />
     <MESSAGE value="DSA Strings&#10;Patterns" />
-    <option name="LAST_COMMIT_MESSAGE" value="DSA Strings&#10;Patterns" />
+    <MESSAGE value="DSA Recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="DSA Recursion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
