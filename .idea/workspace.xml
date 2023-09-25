@@ -8,8 +8,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA leetcode">
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Arrays/AnswerQueries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Arrays/SmallerNumbersThanCurrent.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/DSA/Arrays/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -63,7 +61,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.excludes&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CountSmaller">
+  <component name="RunManager" selected="Application.MinOperations">
     <configuration name="AnswerQueries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.DSA.Arrays.AnswerQueries" />
       <module name="DSA_Hanzala" />
@@ -103,6 +101,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MinOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.Arrays.MinOperations" />
+      <module name="DSA_Hanzala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.DSA.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SmallerNumbersThanCurrent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.DSA.Arrays.SmallerNumbersThanCurrent" />
       <module name="DSA_Hanzala" />
@@ -116,26 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TargetIndices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.LinearSearch.TargetIndices" />
-      <module name="DSA_Hanzala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.DSA.LinearSearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinOperations" />
         <item itemvalue="Application.CountSmaller" />
         <item itemvalue="Application.SmallerNumbersThanCurrent" />
         <item itemvalue="Application.AnswerQueries" />
         <item itemvalue="Application.Intersection" />
-        <item itemvalue="Application.TargetIndices" />
       </list>
     </recent_temporary>
   </component>
@@ -379,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695528301150</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="DSA leetcode">
+      <created>1695578379236</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1695578379236</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
