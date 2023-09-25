@@ -7,7 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA leetcode" />
+    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA leetcode">
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/Arrays/PlusOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/Arrays/RemoveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/Arrays/RemoveElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/Arrays/SearchInsert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,9 +64,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.excludes&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MinOperations">
-    <configuration name="AnswerQueries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Arrays.AnswerQueries" />
+  <component name="RunManager" selected="Application.PlusOne">
+    <configuration name="Ceiling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.BinarySearch.Ceiling" />
+      <module name="DSA_Hanzala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.DSA.BinarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.Arrays.PlusOne" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -72,8 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountSmaller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Arrays.CountSmaller" />
+    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.Arrays.RemoveDuplicates" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -85,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Intersection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Arrays.Intersection" />
+    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.Arrays.RemoveElement" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -98,21 +117,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Arrays.MinOperations" />
-      <module name="DSA_Hanzala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.DSA.Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SmallerNumbersThanCurrent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Arrays.SmallerNumbersThanCurrent" />
+    <configuration name="SearchInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.Arrays.SearchInsert" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -126,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MinOperations" />
-        <item itemvalue="Application.CountSmaller" />
-        <item itemvalue="Application.SmallerNumbersThanCurrent" />
-        <item itemvalue="Application.AnswerQueries" />
-        <item itemvalue="Application.Intersection" />
+        <item itemvalue="Application.PlusOne" />
+        <item itemvalue="Application.SearchInsert" />
+        <item itemvalue="Application.Ceiling" />
+        <item itemvalue="Application.RemoveElement" />
+        <item itemvalue="Application.RemoveDuplicates" />
       </list>
     </recent_temporary>
   </component>
@@ -388,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695615643691</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="DSA leetcode">
+      <created>1695632161984</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1695632161984</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -421,6 +434,16 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSA/Arrays/SearchInsert.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSA/Arrays/PlusOne.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
