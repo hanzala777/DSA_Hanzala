@@ -8,8 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA leetcode">
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Arrays/CountPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Arrays/RunningSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/Arrays/CountPairs1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/Arrays/IsAcronym.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +62,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.excludes&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CountPairs">
+  <component name="RunManager" selected="Application.IsAcronym">
     <configuration name="CountPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.DSA.Arrays.CountPairs" />
       <module name="DSA_Hanzala" />
@@ -76,8 +76,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Arrays.PlusOne" />
+    <configuration name="CountPairs1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.Arrays.CountPairs1" />
+      <module name="DSA_Hanzala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.DSA.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsAcronym" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.Arrays.IsAcronym" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -91,19 +104,6 @@
     </configuration>
     <configuration name="RunningSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.DSA.Arrays.RunningSum" />
-      <module name="DSA_Hanzala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.DSA.Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Arrays.SearchInsert" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -130,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IsAcronym" />
+        <item itemvalue="Application.CountPairs1" />
         <item itemvalue="Application.CountPairs" />
         <item itemvalue="Application.RunningSum" />
         <item itemvalue="Application.SingleNumber" />
-        <item itemvalue="Application.PlusOne" />
-        <item itemvalue="Application.SearchInsert" />
       </list>
     </recent_temporary>
   </component>
@@ -413,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695665869706</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="DSA leetcode">
+      <created>1695736798683</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1695736798683</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
