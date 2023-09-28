@@ -8,8 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA leetcode">
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Arrays/CountBadPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Arrays/MatrixSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/MathsForDSA/IsEven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/MathsForDSA/IthBit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/MathsForDSA/SetIthBitToOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/MathsForDSA/SingleElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +64,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.excludes&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CountBadPairs">
+  <component name="RunManager" selected="Application.SetIthBitToOne">
     <configuration name="CountBadPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.DSA.Arrays.CountBadPairs" />
       <module name="DSA_Hanzala" />
@@ -76,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Arrays.CountPairs" />
+    <configuration name="IsEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.MathsForDSA.IsEven" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSA.Arrays.*" />
+          <option name="PATTERN" value="com.DSA.MathsForDSA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountPairs1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Arrays.CountPairs1" />
+    <configuration name="IthBit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.MathsForDSA.IthBit" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSA.Arrays.*" />
+          <option name="PATTERN" value="com.DSA.MathsForDSA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsAcronym" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Arrays.IsAcronym" />
+    <configuration name="SetIthBitToOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.MathsForDSA.SetIthBitToOne" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSA.Arrays.*" />
+          <option name="PATTERN" value="com.DSA.MathsForDSA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Arrays.MatrixSum" />
+    <configuration name="SingleElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.MathsForDSA.SingleElement" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSA.Arrays.*" />
+          <option name="PATTERN" value="com.DSA.MathsForDSA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SetIthBitToOne" />
+        <item itemvalue="Application.IthBit" />
+        <item itemvalue="Application.SingleElement" />
+        <item itemvalue="Application.IsEven" />
         <item itemvalue="Application.CountBadPairs" />
-        <item itemvalue="Application.MatrixSum" />
-        <item itemvalue="Application.IsAcronym" />
-        <item itemvalue="Application.CountPairs1" />
-        <item itemvalue="Application.CountPairs" />
       </list>
     </recent_temporary>
   </component>
@@ -427,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695739516927</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="DSA leetcode">
+      <created>1695744222072</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1695744222072</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
