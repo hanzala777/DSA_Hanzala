@@ -7,11 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA leetcode">
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/MathsForDSA/IsEven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/MathsForDSA/IthBit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/MathsForDSA/SetIthBitToOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/MathsForDSA/SingleElement.java" afterDir="false" />
+    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA: BitWise operator">
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/MathsForDSA/MagicNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,22 +61,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.excludes&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SetIthBitToOne">
-    <configuration name="CountBadPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Arrays.CountBadPairs" />
-      <module name="DSA_Hanzala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.DSA.Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IsEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.MathsForDSA.IsEven" />
+  <component name="RunManager" selected="Application.MagicNumber">
+    <configuration name="IthBit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.MathsForDSA.IthBit" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -91,8 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IthBit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.MathsForDSA.IthBit" />
+    <configuration name="MagicNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.MathsForDSA.MagicNumber" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -130,13 +114,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UniqueElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.MathsForDSA.UniqueElement" />
+      <module name="DSA_Hanzala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.DSA.MathsForDSA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MagicNumber" />
+        <item itemvalue="Application.UniqueElement" />
         <item itemvalue="Application.SetIthBitToOne" />
         <item itemvalue="Application.IthBit" />
         <item itemvalue="Application.SingleElement" />
-        <item itemvalue="Application.IsEven" />
-        <item itemvalue="Application.CountBadPairs" />
       </list>
     </recent_temporary>
   </component>
@@ -436,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695744222072</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="DSA: BitWise operator">
+      <created>1695878536237</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1695878536237</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -460,7 +464,8 @@
     <MESSAGE value="DSA Strings&#10;Patterns" />
     <MESSAGE value="DSA Recursion" />
     <MESSAGE value="DSA leetcode" />
-    <option name="LAST_COMMIT_MESSAGE" value="DSA leetcode" />
+    <MESSAGE value="DSA: BitWise operator" />
+    <option name="LAST_COMMIT_MESSAGE" value="DSA: BitWise operator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
