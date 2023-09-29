@@ -8,7 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA: BitWise operator">
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/MathsForDSA/MagicNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/MathsForDSA/FlipAndInvertImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/MathsForDSA/IsPowerOfTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/MathsForDSA/NumberOfSetBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/MathsForDSA/Power.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/MathsForDSA/RangeXOR.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,9 +65,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.excludes&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MagicNumber">
-    <configuration name="IthBit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.MathsForDSA.IthBit" />
+  <component name="RunManager" selected="Application.Power">
+    <configuration name="FlipAndInvertImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.MathsForDSA.FlipAndInvertImage" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -75,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MagicNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.MathsForDSA.MagicNumber" />
+    <configuration name="IsPowerOfTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.MathsForDSA.IsPowerOfTwo" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -88,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetIthBitToOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.MathsForDSA.SetIthBitToOne" />
+    <configuration name="NumberOfSetBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.MathsForDSA.NumberOfSetBits" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -101,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.MathsForDSA.SingleElement" />
+    <configuration name="Power" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.MathsForDSA.Power" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -114,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniqueElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.MathsForDSA.UniqueElement" />
+    <configuration name="RangeXOR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.MathsForDSA.RangeXOR" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -129,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MagicNumber" />
-        <item itemvalue="Application.UniqueElement" />
-        <item itemvalue="Application.SetIthBitToOne" />
-        <item itemvalue="Application.IthBit" />
-        <item itemvalue="Application.SingleElement" />
+        <item itemvalue="Application.Power" />
+        <item itemvalue="Application.FlipAndInvertImage" />
+        <item itemvalue="Application.RangeXOR" />
+        <item itemvalue="Application.NumberOfSetBits" />
+        <item itemvalue="Application.IsPowerOfTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -440,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695878536237</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="DSA: BitWise operator">
+      <created>1695902488896</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1695902488896</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
