@@ -7,11 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA: BitWise operator">
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/MathsForDSA/Prime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/MathsForDSA/Sieve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/MathsForDSA/SquareRoot.java" afterDir="false" />
+    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA: Prime Number">
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/MathsForDSA/Factor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/MathsForDSA/GCD_LCM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/MathsForDSA/NewtonRaphson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DSA/MathsForDSA/SquareRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSA/MathsForDSA/SquareRoot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,9 +65,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.excludes&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SquareRoot">
-    <configuration name="FlipAndInvertImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.MathsForDSA.FlipAndInvertImage" />
+  <component name="RunManager" selected="Application.GCD_LCM">
+    <configuration name="Factor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.MathsForDSA.Factor" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -78,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Power" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.MathsForDSA.Power" />
+    <configuration name="GCD_LCM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.MathsForDSA.GCD_LCM" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -91,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Prime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.MathsForDSA.Prime" />
+    <configuration name="NewtonRaphson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.MathsForDSA.NewtonRaphson" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -132,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GCD_LCM" />
+        <item itemvalue="Application.Factor" />
         <item itemvalue="Application.SquareRoot" />
+        <item itemvalue="Application.NewtonRaphson" />
         <item itemvalue="Application.Sieve" />
-        <item itemvalue="Application.Prime" />
-        <item itemvalue="Application.Power" />
-        <item itemvalue="Application.FlipAndInvertImage" />
       </list>
     </recent_temporary>
   </component>
@@ -457,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695962661986</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="DSA: Prime Number">
+      <created>1695990190570</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1695990190570</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -482,7 +490,8 @@
     <MESSAGE value="DSA Recursion" />
     <MESSAGE value="DSA leetcode" />
     <MESSAGE value="DSA: BitWise operator" />
-    <option name="LAST_COMMIT_MESSAGE" value="DSA: BitWise operator" />
+    <MESSAGE value="DSA: Prime Number" />
+    <option name="LAST_COMMIT_MESSAGE" value="DSA: Prime Number" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -7,7 +7,7 @@ public class SquareRoot {
     }
     public static double squareRoot(int n, int p){
         int s = 0, e = n;
-        double root = 0.0;
+        double root;
         while(s <= e){
             int m = s + (e - s) / 2;
             if(m*m == n)
@@ -17,6 +17,7 @@ public class SquareRoot {
             else
                 s = m + 1;
         }
+        root = e;
         double inc = 0.1;
         for(int i = 0; i < p; i++){
             while (root * root <= n)
