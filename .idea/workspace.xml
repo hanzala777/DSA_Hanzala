@@ -7,17 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA: Sqrt, factors, hcf, lcm">
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/ProductOfDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/Reverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/SumOfDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/Zeroes.java" afterDir="false" />
+    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA: Recursion problems + leetcode">
+      <change afterPath="$PROJECT_DIR$/src/CodeVita/CivilWar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/IsSorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/RLinearSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DSA/Recursion/Recursion1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/Recursion1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,9 +64,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.excludes&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Steps">
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Recursion.Palindrome" />
+  <component name="RunManager" selected="Application.RLinearSearch">
+    <configuration name="CivilWar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeVita.CivilWar" />
+      <module name="DSA_Hanzala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodeVita.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.Recursion.IsSorted" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -84,21 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductOfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Recursion.ProductOfDigits" />
-      <module name="DSA_Hanzala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.DSA.Recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Recursion.Reverse" />
+    <configuration name="RLinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.Recursion.RLinearSearch" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -138,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RLinearSearch" />
+        <item itemvalue="Application.CivilWar" />
+        <item itemvalue="Application.IsSorted" />
         <item itemvalue="Application.Steps" />
         <item itemvalue="Application.Zeroes" />
-        <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.Reverse" />
-        <item itemvalue="Application.ProductOfDigits" />
       </list>
     </recent_temporary>
   </component>
@@ -477,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696043078540</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="DSA: Recursion problems + leetcode">
+      <created>1696137057235</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1696137057235</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -504,7 +505,8 @@
     <MESSAGE value="DSA: BitWise operator" />
     <MESSAGE value="DSA: Prime Number" />
     <MESSAGE value="DSA: Sqrt, factors, hcf, lcm" />
-    <option name="LAST_COMMIT_MESSAGE" value="DSA: Sqrt, factors, hcf, lcm" />
+    <MESSAGE value="DSA: Recursion problems + leetcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="DSA: Recursion problems + leetcode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -520,6 +522,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="5" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DSA_Hanzala$InfiniteArray.ic" NAME="InfiniteArray Coverage Results" MODIFIED="1676459632825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
