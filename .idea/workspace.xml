@@ -7,11 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA: Array Recursion problems">
+    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA: patterns, bubble, selection sort with Recursion">
       <change afterPath="$PROJECT_DIR$/src/CodeVita/CivilWar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/RRotatedBinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/RBubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/RPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/RPattern2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/RSelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DSA/Recursion/RLinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/RLinearSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,13 +66,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.excludes&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="CivilWar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeVita.CivilWar" />
+  <component name="RunManager" selected="Application.RPattern2">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.Sort.BubbleSort" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CodeVita.*" />
+          <option name="PATTERN" value="com.DSA.Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,21 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Recursion.IsSorted" />
-      <module name="DSA_Hanzala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.DSA.Recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RLinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Recursion.RLinearSearch" />
+    <configuration name="RBubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.Recursion.RBubbleSort" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Steps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Recursion.Steps" />
+    <configuration name="RPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.Recursion.RPattern" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -117,8 +106,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Recursion.Zeroes" />
+    <configuration name="RPattern2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.Recursion.RPattern2" />
+      <module name="DSA_Hanzala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.DSA.Recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RSelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.Recursion.RSelectionSort" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -132,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RLinearSearch" />
-        <item itemvalue="Application.CivilWar" />
-        <item itemvalue="Application.IsSorted" />
-        <item itemvalue="Application.Steps" />
-        <item itemvalue="Application.Zeroes" />
+        <item itemvalue="Application.RPattern2" />
+        <item itemvalue="Application.RSelectionSort" />
+        <item itemvalue="Application.RBubbleSort" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.RPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -485,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696254727220</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="DSA: Array Recursion problems">
+      <created>1696392276805</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1696392276805</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -514,7 +523,8 @@
     <MESSAGE value="DSA: Sqrt, factors, hcf, lcm" />
     <MESSAGE value="DSA: Recursion problems + leetcode" />
     <MESSAGE value="DSA: Array Recursion problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="DSA: Array Recursion problems" />
+    <MESSAGE value="DSA: patterns, bubble, selection sort with Recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="DSA: patterns, bubble, selection sort with Recursion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -527,6 +537,16 @@
           <url>file://$PROJECT_DIR$/src/com/DSA/Arrays/SearchInsert.java</url>
           <line>6</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSA/Sort/BubbleSort.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/DSA/Recursion/RBubbleSort.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
