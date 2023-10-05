@@ -2,7 +2,7 @@ package com.DSA.Recursion;
 
 public class RPattern2 {
     public static void main(String[] args) {
-        int n = 4;
+        int n = 5;
         rPattern2(n,0);
     }
     static void rPattern2(int row, int col){
