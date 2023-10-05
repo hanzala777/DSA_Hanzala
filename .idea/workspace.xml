@@ -7,10 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA: patterns, bubble, selection sort with Recursion">
+    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA: merge sort">
       <change afterPath="$PROJECT_DIR$/src/CodeVita/CivilWar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,20 +145,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675749872602</updated>
-    </task>
-    <task id="LOCAL-00003" summary="DSA Array">
-      <created>1675846423320</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1675846423320</updated>
-    </task>
-    <task id="LOCAL-00004" summary="DSA Array">
-      <created>1675883466553</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1675883466553</updated>
     </task>
     <task id="LOCAL-00005" summary="DSA Array">
       <created>1675883587941</created>
@@ -491,7 +475,21 @@
       <option name="project" value="LOCAL" />
       <updated>1696478927436</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="DSA: merge sort">
+      <created>1696507550059</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1696507550059</updated>
+    </task>
+    <task id="LOCAL-00053" summary="DSA: merge sort">
+      <created>1696507561036</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1696507561036</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -521,7 +519,8 @@
     <MESSAGE value="DSA: Recursion problems + leetcode" />
     <MESSAGE value="DSA: Array Recursion problems" />
     <MESSAGE value="DSA: patterns, bubble, selection sort with Recursion" />
-    <option name="LAST_COMMIT_MESSAGE" value="DSA: patterns, bubble, selection sort with Recursion" />
+    <MESSAGE value="DSA: merge sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="DSA: merge sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
