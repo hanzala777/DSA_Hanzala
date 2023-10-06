@@ -7,10 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA: merge sort">
+    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA: quick sort">
       <change afterPath="$PROJECT_DIR$/src/CodeVita/CivilWar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DSA/Recursion/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +62,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.excludes&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Sort.BubbleSort" />
+  <component name="RunManager" selected="Application.QuickSort">
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.Recursion.MergeSort" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSA.Sort.*" />
+          <option name="PATTERN" value="com.DSA.Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,8 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Recursion.MergeSort" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.Recursion.QuickSort" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -131,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.RPattern2" />
         <item itemvalue="Application.RSelectionSort" />
         <item itemvalue="Application.RBubbleSort" />
-        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -147,13 +146,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675749872602</updated>
-    </task>
-    <task id="LOCAL-00006" summary="DSA Array">
-      <created>1675974570470</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1675974570470</updated>
     </task>
     <task id="LOCAL-00007" summary="DSA Array&#10;Linear Search">
       <created>1676118410240</created>
@@ -491,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696507609916</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="DSA: quick sort">
+      <created>1696563992388</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1696563992389</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -522,7 +521,8 @@
     <MESSAGE value="DSA: Array Recursion problems" />
     <MESSAGE value="DSA: patterns, bubble, selection sort with Recursion" />
     <MESSAGE value="DSA: merge sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="DSA: merge sort" />
+    <MESSAGE value="DSA: quick sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="DSA: quick sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
