@@ -2,7 +2,7 @@ package com.DSA.Recursion;
 
 public class SubSequence {
     public static void main(String[] args) {
-        subSequence("", "abc");
+        subSequence("", "abcd");
     }
     static void subSequence(String p, String up){
         if(up.isEmpty()){

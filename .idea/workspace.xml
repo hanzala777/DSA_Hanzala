@@ -7,11 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA: skip a from string">
+    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA: skip string, subsequence">
       <change afterPath="$PROJECT_DIR$/src/CodeVita/CivilWar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/SkipString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/SubSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,13 +145,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675749872602</updated>
-    </task>
-    <task id="LOCAL-00009" summary="DSA Array&#10;Linear Search">
-      <created>1676143200797</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1676143200797</updated>
     </task>
     <task id="LOCAL-00010" summary="DSA Array&#10;Binary Search">
       <created>1676460253441</created>
@@ -492,7 +482,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696684779293</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="DSA: skip string, subsequence">
+      <created>1696736851086</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1696736851086</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -525,7 +522,8 @@
     <MESSAGE value="DSA: merge sort" />
     <MESSAGE value="DSA: quick sort" />
     <MESSAGE value="DSA: skip a from string" />
-    <option name="LAST_COMMIT_MESSAGE" value="DSA: skip a from string" />
+    <MESSAGE value="DSA: skip string, subsequence" />
+    <option name="LAST_COMMIT_MESSAGE" value="DSA: skip string, subsequence" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
