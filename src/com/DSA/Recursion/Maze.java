@@ -2,7 +2,8 @@ package com.DSA.Recursion;
 
 public class Maze {
     public static void main(String[] args) {
-        System.out.println(count(5,3));
+        int ans = count(3, 3);
+        System.out.println(ans);
     }
     static int count(int r, int c){
         if(r == 1 || c == 1){

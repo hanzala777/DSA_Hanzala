@@ -7,10 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA: Permutation Problems">
+    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA: Maze problem">
       <change afterPath="$PROJECT_DIR$/src/CodeVita/CivilWar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/Maze.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DSA/Recursion/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/Maze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DSA/Recursion/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/Sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DSA/Recursion/SumOfDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/SumOfDigits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DSA/Recursion/Zeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/Zeroes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +66,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.excludes&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Maze">
+  <component name="RunManager" selected="Application.Sum">
     <configuration name="Dice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.DSA.Recursion.Dice" />
       <module name="DSA_Hanzala" />
@@ -90,19 +93,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Recursion.Permutation" />
-      <module name="DSA_Hanzala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.DSA.Recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PhonePad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.DSA.Recursion.PhonePad" />
       <module name="DSA_Hanzala" />
@@ -116,12 +106,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Arrays.SubSet" />
+    <configuration name="Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.Recursion.Sum" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSA.Arrays.*" />
+          <option name="PATTERN" value="com.DSA.Recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Zeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.Recursion.Zeroes" />
+      <module name="DSA_Hanzala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.DSA.Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sum" />
+        <item itemvalue="Application.Zeroes" />
         <item itemvalue="Application.Maze" />
         <item itemvalue="Application.Dice" />
         <item itemvalue="Application.PhonePad" />
-        <item itemvalue="Application.Permutation" />
-        <item itemvalue="Application.SubSet" />
       </list>
     </recent_temporary>
   </component>
@@ -147,20 +150,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675749872602</updated>
-    </task>
-    <task id="LOCAL-00016" summary="DSA Array">
-      <created>1686392557630</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1686392557630</updated>
-    </task>
-    <task id="LOCAL-00017" summary="DSA Array&#10;continue">
-      <created>1694925077972</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1694925077972</updated>
     </task>
     <task id="LOCAL-00018" summary="DSA Array&#10;continue">
       <created>1694925296046</created>
@@ -491,7 +480,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697944554910</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="DSA: Maze problem">
+      <created>1698061551542</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1698061551542</updated>
+    </task>
+    <task id="LOCAL-00066" summary="DSA: Maze problem">
+      <created>1698061624350</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1698061624350</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -529,7 +532,8 @@
     <MESSAGE value="DSA: subset duplicate" />
     <MESSAGE value="DSA: Permutation" />
     <MESSAGE value="DSA: Permutation Problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="DSA: Permutation Problems" />
+    <MESSAGE value="DSA: Maze problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="DSA: Maze problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -553,18 +557,8 @@
           <line>7</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/DSA/Recursion/Maze.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="5" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DSA_Hanzala$InfiniteArray.ic" NAME="InfiniteArray Coverage Results" MODIFIED="1676459632825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

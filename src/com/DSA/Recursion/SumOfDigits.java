@@ -2,8 +2,8 @@ package com.DSA.Recursion;
 
 public class SumOfDigits {
     public static void main(String[] args) {
-        int n = 623;
-        System.out.println(sumOfDigits(n));
+        int n = sumOfDigits(623);
+        System.out.println(n);
     }
     static int sumOfDigits(int n){
         if(n == 0)

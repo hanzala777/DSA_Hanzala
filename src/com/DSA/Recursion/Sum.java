@@ -2,8 +2,8 @@ package com.DSA.Recursion;
 
 public class Sum {
     public static void main(String[] args) {
-        int n = 5;
-        System.out.println(sum(n));
+        int n = sum(5);
+        System.out.println(n);
     }
     static int sum(int n){
         if(n <= 1)
