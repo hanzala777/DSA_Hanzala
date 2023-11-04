@@ -7,13 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA: Maze problem">
+    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA: Debugging recursion problems">
       <change afterPath="$PROJECT_DIR$/src/CodeVita/CivilWar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/DSA/Recursion/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/Maze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DSA/Recursion/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/Sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DSA/Recursion/SumOfDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/SumOfDigits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DSA/Recursion/Zeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSA/Recursion/Zeroes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +63,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.excludes&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Sum">
+  <component name="RunManager" selected="Application.Maze">
     <configuration name="Dice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.DSA.Recursion.Dice" />
       <module name="DSA_Hanzala" />
@@ -93,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhonePad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Recursion.PhonePad" />
+    <configuration name="Stream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.Recursion.Stream" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -134,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Maze" />
+        <item itemvalue="Application.Stream" />
         <item itemvalue="Application.Sum" />
         <item itemvalue="Application.Zeroes" />
-        <item itemvalue="Application.Maze" />
         <item itemvalue="Application.Dice" />
-        <item itemvalue="Application.PhonePad" />
       </list>
     </recent_temporary>
   </component>
@@ -150,13 +147,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675749872602</updated>
-    </task>
-    <task id="LOCAL-00018" summary="DSA Array&#10;continue">
-      <created>1694925296046</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1694925296046</updated>
     </task>
     <task id="LOCAL-00019" summary="DSA Array&#10;continue">
       <created>1694930444898</created>
@@ -494,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698061624350</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="DSA: Debugging recursion problems">
+      <created>1698153638973</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1698153638974</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -533,7 +530,8 @@
     <MESSAGE value="DSA: Permutation" />
     <MESSAGE value="DSA: Permutation Problems" />
     <MESSAGE value="DSA: Maze problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="DSA: Maze problem" />
+    <MESSAGE value="DSA: Debugging recursion problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="DSA: Debugging recursion problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
