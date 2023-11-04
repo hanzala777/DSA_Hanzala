@@ -12,8 +12,8 @@ public class Maze {
         ArrayList<String> list = retPath("",3,3);
         System.out.println(list);
 
-        ArrayList<String> list1 = retPathDiagonal("",3,3);
-        System.out.println(list1);
+        ArrayList<String> listD = retPathDiagonal("",3,3);
+        System.out.println(listD);
     }
     static int count(int r, int c){
         if(r == 1 || c == 1){
