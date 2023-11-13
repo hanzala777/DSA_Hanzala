@@ -7,9 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="Code Vita TCS problems">
+    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="CodeVita TCS problems">
       <change afterPath="$PROJECT_DIR$/src/CodeVita/CivilWar.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/CodeVita/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CodeVita/BeetleDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeVita/BeetleDistance.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,13 +148,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675749872602</updated>
-    </task>
-    <task id="LOCAL-00024" summary="DSA Array&#10;continue">
-      <created>1695006008227</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1695006008227</updated>
     </task>
     <task id="LOCAL-00025" summary="DSA Array&#10;continue">
       <created>1695090757818</created>
@@ -490,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699799932074</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="CodeVita TCS problems">
+      <created>1699800571099</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1699800571099</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -506,7 +508,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="DSA Array&#10;leetcode" />
     <MESSAGE value="DSA Array" />
     <MESSAGE value="DSA Strings&#10;Patterns" />
     <MESSAGE value="DSA Recursion" />
@@ -531,7 +532,8 @@
     <MESSAGE value="DSA: maze problem with backtracking" />
     <MESSAGE value="DSA: problems with backtracking" />
     <MESSAGE value="Code Vita TCS problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code Vita TCS problems" />
+    <MESSAGE value="CodeVita TCS problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="CodeVita TCS problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

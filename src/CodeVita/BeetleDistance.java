@@ -18,10 +18,19 @@ public class BeetleDistance {
             double y2 = points[3 * (i + 1) + 1];
             double z2 = points[3 * (i + 1) + 2];
 
-            if (z1 == z2) {
-                // Same face, use arc length formula
-                totalDistance += (2 * Math.PI / 6) * calculateDistance(x1, y1, z1, x2, y2, z2);
-            } else {
+            if(z1 == z2 && (y1 == y2 || x1 == x2 ) && z2 != 0){
+
+                //check if the x axis of next co-ordinate is same
+                if(x1 != x2){
+                    totalDistance = (2 * 3.14 * (Math.abs(x1 - x2))) / 6.0f;
+                }
+
+                //check if the y axis of next co-ordinate is same
+                else{
+                    totalDistance = (2 * 3.14 * (Math.abs(y1 - y2))) / 6.0f;
+                }
+            }
+            else {
                 // Different face, use straight line distance
                 totalDistance += calculateDistance(x1, y1, z1, x2, y2, z2);
             }
