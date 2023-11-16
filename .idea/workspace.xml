@@ -10,8 +10,11 @@
     <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="CodeVita TCS problems">
       <change afterPath="$PROJECT_DIR$/src/CodeVita/CivilWar.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/CodeVita/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeVita/ObstacleGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/OOP/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/OOP/Box2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/OOP/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodeVita/BeetleDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CodeVita/BeetleDistance.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,48 +67,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.excludes&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BeetleDistance">
-    <configuration name="Alexander" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeVita.Alexander" />
-      <module name="DSA_Hanzala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CodeVita.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BeetleDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeVita.BeetleDistance" />
-      <module name="DSA_Hanzala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CodeVita.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookDistribution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeVita.BookDistribution" />
-      <module name="DSA_Hanzala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CodeVita.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Derangement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeVita.Derangement" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="IterativeObstacleGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeVita.IterativeObstacleGame" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -118,7 +82,46 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeVita.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.OOP.Main" />
+      <module name="DSA_Hanzala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.OOP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Maze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.Recursion.Maze" />
+      <module name="DSA_Hanzala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.DSA.Recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObstacleGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeVita.ObstacleGame" />
+      <module name="DSA_Hanzala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodeVita.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaterCistern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeVita.WaterCistern" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -132,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BeetleDistance" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Alexander" />
-        <item itemvalue="Application.BookDistribution" />
-        <item itemvalue="Application.Derangement" />
+        <item itemvalue="Application.ObstacleGame" />
+        <item itemvalue="Application.IterativeObstacleGame" />
+        <item itemvalue="Application.Maze" />
+        <item itemvalue="Application.WaterCistern" />
       </list>
     </recent_temporary>
   </component>
@@ -148,20 +151,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675749872602</updated>
-    </task>
-    <task id="LOCAL-00025" summary="DSA Array&#10;continue">
-      <created>1695090757818</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1695090757818</updated>
-    </task>
-    <task id="LOCAL-00026" summary="DSA Array&#10;leetcode">
-      <created>1695098507851</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1695098507851</updated>
     </task>
     <task id="LOCAL-00027" summary="DSA Array&#10;leetcode">
       <created>1695102349997</created>
@@ -492,7 +481,21 @@
       <option name="project" value="LOCAL" />
       <updated>1699800571099</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="CodeVita TCS problems">
+      <created>1699886399285</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1699886399285</updated>
+    </task>
+    <task id="LOCAL-00075" summary="CodeVita TCS problems">
+      <created>1700029829546</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1700029829546</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
