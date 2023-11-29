@@ -1,4 +1,4 @@
-package com.OOP;
+package com.OOP.Inheritance;
 
 public class Box {
     double l;
@@ -12,5 +12,10 @@ public class Box {
         this.l = l;
         this.h = h;
         this.w = w;
+    }
+    Box(Box other){
+        this.l = other.l;
+        this.h = other.h;
+        this.w = other.w;
     }
 }
