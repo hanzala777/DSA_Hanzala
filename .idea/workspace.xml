@@ -11,6 +11,10 @@
       <change afterPath="$PROJECT_DIR$/src/CodeVita/CivilWar.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/CodeVita/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/CodeVita/ObstacleGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/LinkedLists/LL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DSA/LinkedLists/Linkedlist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DSA/LinkedLists/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSA/LinkedLists/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +67,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.com.OOP.Polymorphism.Main">
+  <component name="RunManager" selected="Application.com.DSA.LinkedLists.Main">
     <configuration name="IterativeObstacleGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CodeVita.IterativeObstacleGame" />
       <module name="DSA_Hanzala" />
@@ -90,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Maze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.Recursion.Maze" />
+    <configuration name="ObstacleGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeVita.ObstacleGame" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSA.Recursion.*" />
+          <option name="PATTERN" value="CodeVita.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObstacleGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeVita.ObstacleGame" />
+    <configuration name="com.DSA.LinkedLists.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.LinkedLists.Main" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CodeVita.*" />
+          <option name="PATTERN" value="com.DSA.LinkedLists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.DSA.LinkedLists.Main" />
         <item itemvalue="Application.com.OOP.Polymorphism.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ObstacleGame" />
         <item itemvalue="Application.IterativeObstacleGame" />
-        <item itemvalue="Application.Maze" />
       </list>
     </recent_temporary>
   </component>
@@ -147,13 +151,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675749872602</updated>
-    </task>
-    <task id="LOCAL-00029" summary="DSA Array">
-      <created>1695307298788</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1695307298788</updated>
     </task>
     <task id="LOCAL-00030" summary="DSA Strings&#10;Patterns">
       <created>1695316211357</created>
@@ -491,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701238536762</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="OOP: Inheritance, Polymorphism">
+      <created>1701238591380</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1701238591380</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

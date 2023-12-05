@@ -1,20 +1,20 @@
 package com.DSA.LinkedLists;
 
-import java.util.LinkedList;
-
 public class Main{
-    public static void main(String args[]){
-        LinkedList list=new LinkedList();
-        list.addLast(10);
-        list.addFirst(2);
-        list.add(10);
-        list.addFirst(21);
-        list.addLast(31);
-        list.remove(1);
-        System.out.println(list.contains(10));
-        System.out.println(list.indexOf(10));
-        System.out.println(list.size());
-        System.out.println(list);
+    public static void main(String[] args){
+        LL list=new LL();
+        list.addFirst(5);
+        list.addFirst(1);
+        list.addLast(2);
+        list.add(4, 2);
+        list.addLast(2);
+        list.add(4, 4);
+        list.Display();
+        System.out.println(list.deleteFirst());
+        System.out.println(list.deleteLast());
+        System.out.println(list.delete(3));
+        list.Display();
+        System.out.println(list.find(4));
     }
 }
 /*Runtime complexity:
