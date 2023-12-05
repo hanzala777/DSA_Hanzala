@@ -86,26 +86,16 @@ public class LL {
         return node;
     }
     public Node find(int value) {
-//        Node node = head;
-//        while(node != null){
-//            if (node.value == value){
-//                return node;
-//            }
-//            node = node.next;
-//        }
-//        return null;
     Node node = head;
     int index = 0;
-
         while (node != null) {
-        if (node.value == value) {
-            System.out.println("Node found at index: " + index);
-            return node;
+            if (node.value == value) {
+                System.out.println("Node found at index: " + index);
+                return node;
+            }
+            node = node.next;
+            index++;
         }
-        node = node.next;
-        index++;
-    }
-
         System.out.println("Node not found for value: " + value);
         return null;
     }
