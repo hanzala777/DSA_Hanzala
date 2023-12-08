@@ -8,10 +8,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA : Linked List -&gt; insert, remove, search">
+      <change afterPath="$PROJECT_DIR$/src/CodeVita/ArtShift.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/CodeVita/CivilWar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeVita/HammingDistance.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/CodeVita/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeVita/MaximizeGems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeVita/MirrorReflection.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/CodeVita/ObstacleGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DSA/LinkedLists/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSA/LinkedLists/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeVita/StockPortfolio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,9 +69,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.com.DSA.LinkedLists.Main">
-    <configuration name="IterativeObstacleGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeVita.IterativeObstacleGame" />
+  <component name="RunManager" selected="Application.ArtShift">
+    <configuration name="ArtShift" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeVita.ArtShift" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -78,21 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.OOP.Main" />
-      <module name="DSA_Hanzala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.OOP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ObstacleGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeVita.ObstacleGame" />
+    <configuration name="HammingDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeVita.HammingDistance" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
@@ -104,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.DSA.LinkedLists.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.DSA.LinkedLists.Main" />
+    <configuration name="MaximizeGems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeVita.MaximizeGems" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.DSA.LinkedLists.*" />
+          <option name="PATTERN" value="CodeVita.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +109,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.OOP.Polymorphism.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.OOP.Polymorphism.Main" />
+    <configuration name="MirrorReflection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeVita.MirrorReflection" />
       <module name="DSA_Hanzala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.OOP.Polymorphism.*" />
+          <option name="PATTERN" value="CodeVita.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockPortfolio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeVita.StockPortfolio" />
+      <module name="DSA_Hanzala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodeVita.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.DSA.LinkedLists.Main" />
-        <item itemvalue="Application.com.OOP.Polymorphism.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ObstacleGame" />
-        <item itemvalue="Application.IterativeObstacleGame" />
+        <item itemvalue="Application.ArtShift" />
+        <item itemvalue="Application.MirrorReflection" />
+        <item itemvalue="Application.HammingDistance" />
+        <item itemvalue="Application.MaximizeGems" />
+        <item itemvalue="Application.StockPortfolio" />
       </list>
     </recent_temporary>
   </component>
@@ -148,13 +153,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675749872602</updated>
-    </task>
-    <task id="LOCAL-00031" summary="DSA Recursion">
-      <created>1695358812054</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1695358812054</updated>
     </task>
     <task id="LOCAL-00032" summary="DSA leetcode">
       <created>1695471937215</created>
@@ -492,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701786995328</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="DSA : Linked List -&gt; insert, remove, search">
+      <created>1701787726913</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1701787726913</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
