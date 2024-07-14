@@ -7,15 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="DSA : Linked List -&gt; insert, remove, search">
-      <change afterPath="$PROJECT_DIR$/src/CodeVita/ArtShift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeVita/CivilWar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeVita/HammingDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeVita/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeVita/MaximizeGems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeVita/MirrorReflection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeVita/ObstacleGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CodeVita/StockPortfolio.java" afterDir="false" />
+    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="CodeVita: problems solved">
+      <change afterPath="$PROJECT_DIR$/src/Walmart/Heap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +41,10 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2LOlAuBKGu3PmBUYECqRQTKvcYH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -59,10 +56,16 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.ArtShift.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PowerOfTwoMaxHeap.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/app dev&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Java/MyJava/DSA_Hanzala&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -96,6 +99,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.LinkedLists.Main" />
+      <module name="DSA_Hanzala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.DSA.LinkedLists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MaximizeGems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CodeVita.MaximizeGems" />
       <module name="DSA_Hanzala" />
@@ -122,26 +138,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StockPortfolio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeVita.StockPortfolio" />
-      <module name="DSA_Hanzala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CodeVita.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ArtShift" />
         <item itemvalue="Application.MirrorReflection" />
         <item itemvalue="Application.HammingDistance" />
         <item itemvalue="Application.MaximizeGems" />
-        <item itemvalue="Application.StockPortfolio" />
       </list>
     </recent_temporary>
   </component>
@@ -153,13 +156,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675749872602</updated>
-    </task>
-    <task id="LOCAL-00032" summary="DSA leetcode">
-      <created>1695471937215</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1695471937215</updated>
     </task>
     <task id="LOCAL-00033" summary="DSA leetcode">
       <created>1695528301150</created>
@@ -497,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701787726913</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="CodeVita: problems solved">
+      <created>1702052076334</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1702052076334</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -513,7 +516,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="DSA leetcode" />
     <MESSAGE value="DSA: BitWise operator" />
     <MESSAGE value="DSA: Prime Number" />
     <MESSAGE value="DSA: Sqrt, factors, hcf, lcm" />
@@ -538,7 +540,8 @@
     <MESSAGE value="OOP: Classes, Inheritance" />
     <MESSAGE value="OOP: Inheritance, Polymorphism" />
     <MESSAGE value="DSA : Linked List -&gt; insert, remove, search" />
-    <option name="LAST_COMMIT_MESSAGE" value="DSA : Linked List -&gt; insert, remove, search" />
+    <MESSAGE value="CodeVita: problems solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="CodeVita: problems solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
