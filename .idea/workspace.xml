@@ -7,8 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="CodeVita: problems solved">
-      <change afterPath="$PROJECT_DIR$/src/Walmart/Heap.java" afterDir="false" />
+    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="forage task">
+      <change afterPath="$PROJECT_DIR$/src/MapsDicts/HashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MapsDicts/HashSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,26 +54,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.ArtShift.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PowerOfTwoMaxHeap.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Java/MyJava/DSA_Hanzala&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.ArtShift.executor": "Run",
+    "Application.HashSet.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.PowerOfTwoMaxHeap.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TODO_SCOPE": "All Places",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Java/MyJava/DSA_Hanzala",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
-}</component>
-  <component name="RunManager" selected="Application.ArtShift">
+}]]></component>
+  <component name="RunManager">
     <configuration name="ArtShift" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CodeVita.ArtShift" />
       <module name="DSA_Hanzala" />
@@ -500,7 +502,7 @@
       <option name="project" value="LOCAL" />
       <updated>1702052076334</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -516,7 +518,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="DSA: BitWise operator" />
     <MESSAGE value="DSA: Prime Number" />
     <MESSAGE value="DSA: Sqrt, factors, hcf, lcm" />
     <MESSAGE value="DSA: Recursion problems + leetcode" />
@@ -541,7 +542,8 @@
     <MESSAGE value="OOP: Inheritance, Polymorphism" />
     <MESSAGE value="DSA : Linked List -&gt; insert, remove, search" />
     <MESSAGE value="CodeVita: problems solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="CodeVita: problems solved" />
+    <MESSAGE value="forage task" />
+    <option name="LAST_COMMIT_MESSAGE" value="forage task" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
