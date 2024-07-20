@@ -7,8 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="Maps/Dictionaries">
-      <change afterPath="$PROJECT_DIR$/src/MapsDicts/KarpRabin.java" afterDir="false" />
+    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="Maps/Dictionaries&#10;Karp-Rabin Algorithm">
+      <change afterPath="$PROJECT_DIR$/src/MapsDicts/CountSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +57,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.ArtShift.executor": "Run",
+    "Application.CountSort.executor": "Run",
     "Application.HashSet.executor": "Run",
     "Application.Lain.executor": "Run",
     "Application.Main.executor": "Run",
@@ -502,7 +503,7 @@
       <option name="project" value="LOCAL" />
       <updated>1702052076334</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -518,7 +519,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="DSA: Sqrt, factors, hcf, lcm" />
     <MESSAGE value="DSA: Recursion problems + leetcode" />
     <MESSAGE value="DSA: Array Recursion problems" />
     <MESSAGE value="DSA: patterns, bubble, selection sort with Recursion" />
@@ -543,7 +543,8 @@
     <MESSAGE value="CodeVita: problems solved" />
     <MESSAGE value="forage task" />
     <MESSAGE value="Maps/Dictionaries" />
-    <option name="LAST_COMMIT_MESSAGE" value="Maps/Dictionaries" />
+    <MESSAGE value="Maps/Dictionaries&#10;Karp-Rabin Algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Maps/Dictionaries&#10;Karp-Rabin Algorithm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
