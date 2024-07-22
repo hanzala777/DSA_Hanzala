@@ -1,4 +1,4 @@
-package MapsDicts;
+package com.DSA.MapsDicts;
 
 import java.util.Arrays;
 import java.util.HashMap;

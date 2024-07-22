@@ -1,4 +1,4 @@
-package MapsDicts;
+package com.DSA.MapsDicts;
 
 class MyHashSet {
     private boolean[] set;

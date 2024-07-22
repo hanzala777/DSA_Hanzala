@@ -1,4 +1,4 @@
-package MapsDicts;
+package com.DSA.MapsDicts;
 
 public class KarpRabin {
     private final int PRIME = 101;
