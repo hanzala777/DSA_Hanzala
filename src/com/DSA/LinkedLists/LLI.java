@@ -1,6 +1,6 @@
 package com.DSA.LinkedLists;
 
-public class Main{
+public class LLI {
     public static void main(String[] args){
         LL list=new LL();
         list.addFirst(5);

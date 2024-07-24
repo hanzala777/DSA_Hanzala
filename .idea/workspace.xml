@@ -7,12 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="Maps/Dictionaries&#10;Count Sort Algorithm">
+    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="Maps/Dictionaries&#10;path refactor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MapsDicts/CountSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSA/MapsDicts/CountSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MapsDicts/HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSA/MapsDicts/HashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MapsDicts/HashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSA/MapsDicts/HashSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MapsDicts/KarpRabin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSA/MapsDicts/KarpRabin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -506,7 +502,7 @@
       <option name="project" value="LOCAL" />
       <updated>1702052076334</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -522,7 +518,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="DSA: Array Recursion problems" />
     <MESSAGE value="DSA: patterns, bubble, selection sort with Recursion" />
     <MESSAGE value="DSA: merge sort" />
     <MESSAGE value="DSA: quick sort" />
@@ -547,7 +542,8 @@
     <MESSAGE value="Maps/Dictionaries" />
     <MESSAGE value="Maps/Dictionaries&#10;Karp-Rabin Algorithm" />
     <MESSAGE value="Maps/Dictionaries&#10;Count Sort Algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Maps/Dictionaries&#10;Count Sort Algorithm" />
+    <MESSAGE value="Maps/Dictionaries&#10;path refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Maps/Dictionaries&#10;path refactor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
