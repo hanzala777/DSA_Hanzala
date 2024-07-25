@@ -7,10 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="Linked-List&#10;Start">
+    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="Linked-List&#10;Re-Start">
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/LinkedLists/DoublyLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/LinkedLists/DoublyLLI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DSA/LinkedLists/LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSA/LinkedLists/LL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DSA/LinkedLists/LLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSA/LinkedLists/LLI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +59,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.ArtShift.executor": "Run",
     "Application.CountSort.executor": "Debug",
+    "Application.DoublyLLI.executor": "Run",
     "Application.HashSet.executor": "Run",
     "Application.LL1I.executor": "Run",
     "Application.LLI.executor": "Run",
@@ -79,19 +80,6 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="ArtShift" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeVita.ArtShift" />
-      <module name="DSA_Hanzala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CodeVita.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HammingDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CodeVita.HammingDistance" />
       <module name="DSA_Hanzala" />
@@ -147,7 +135,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.LLI" />
-        <item itemvalue="Application.ArtShift" />
         <item itemvalue="Application.MirrorReflection" />
         <item itemvalue="Application.HammingDistance" />
         <item itemvalue="Application.MaximizeGems" />
@@ -513,7 +500,7 @@
       <option name="project" value="LOCAL" />
       <updated>1702052076334</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -529,7 +516,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="DSA: merge sort" />
     <MESSAGE value="DSA: quick sort" />
     <MESSAGE value="DSA: skip a from string" />
     <MESSAGE value="DSA: skip string, subsequence" />
@@ -554,7 +540,8 @@
     <MESSAGE value="Maps/Dictionaries&#10;Count Sort Algorithm" />
     <MESSAGE value="Maps/Dictionaries&#10;path refactor" />
     <MESSAGE value="Linked-List&#10;Start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linked-List&#10;Start" />
+    <MESSAGE value="Linked-List&#10;Re-Start" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linked-List&#10;Re-Start" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -563,21 +550,6 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/DSA/Arrays/SearchInsert.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/DSA/Sort/BubbleSort.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/DSA/Recursion/RBubbleSort.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
