@@ -7,9 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="Linked-List&#10;Re-Start">
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/LinkedLists/DoublyLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/LinkedLists/DoublyLLI.java" afterDir="false" />
+    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="Doubly Linked-List">
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/LinkedLists/CircularLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/LinkedLists/CircularLLI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,8 +58,10 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.ArtShift.executor": "Run",
+    "Application.CircularLLI.executor": "Run",
     "Application.CountSort.executor": "Debug",
     "Application.DoublyLLI.executor": "Run",
+    "Application.HammingDistance.executor": "Run",
     "Application.HashSet.executor": "Run",
     "Application.LL1I.executor": "Run",
     "Application.LLI.executor": "Run",
@@ -134,9 +136,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HammingDistance" />
         <item itemvalue="Application.LLI" />
         <item itemvalue="Application.MirrorReflection" />
-        <item itemvalue="Application.HammingDistance" />
         <item itemvalue="Application.MaximizeGems" />
       </list>
     </recent_temporary>
@@ -500,7 +502,7 @@
       <option name="project" value="LOCAL" />
       <updated>1702052076334</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -516,7 +518,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="DSA: quick sort" />
     <MESSAGE value="DSA: skip a from string" />
     <MESSAGE value="DSA: skip string, subsequence" />
     <MESSAGE value="DSA: subset" />
@@ -541,7 +542,8 @@
     <MESSAGE value="Maps/Dictionaries&#10;path refactor" />
     <MESSAGE value="Linked-List&#10;Start" />
     <MESSAGE value="Linked-List&#10;Re-Start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linked-List&#10;Re-Start" />
+    <MESSAGE value="Doubly Linked-List" />
+    <option name="LAST_COMMIT_MESSAGE" value="Doubly Linked-List" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
