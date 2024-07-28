@@ -1,5 +1,7 @@
 package com.DSA.LinkedLists;
 
+import java.util.List;
+
 public class Problems {
     private ListNode head;
     private ListNode tail;
@@ -146,7 +148,7 @@ public class Problems {
     //876. Middle of the Linked List
     public ListNode middleNode(ListNode head) {
         ListNode fast = head;
-        while(null != fast || fast.next != null){
+        while(fast != null && fast.next != null){
             head = head.next;
             fast = fast.next.next;
         }
@@ -197,6 +199,91 @@ public class Problems {
             curr=n;
         }
         head=p;
+        return head;
+    }
+
+    //92. Reverse Linked List II
+    public ListNode reverseBetween(ListNode head, int left, int right) {
+        if(left == right){
+            return head;
+        }
+        ListNode current = head;
+        ListNode prev = null;
+        for(int i = 0; current != null && i < left - 1; i++){
+            prev = current;
+            current = current.next;
+        }
+
+        ListNode last = prev;
+        ListNode newEnd = current;
+
+        ListNode next = current.next;
+        for(int i = 0; current != null && i < right - left + 1; i++){
+            current.next = prev;
+            prev = current;
+            current = next;
+            if(next != null){
+                next = next.next;
+            }
+        }
+        if(last != null){
+            last.next = prev;
+        } else {
+            head = prev;
+        }
+        newEnd.next = current;
+        return head;
+    }
+    //143. Reorder List
+    public void reorderList(ListNode head) {
+        if(head == null || head.next == null){
+            return;
+        }
+        ListNode mid = middleNode(head);
+        ListNode hs = reverseList(mid);
+        ListNode hf = head;
+
+        while (hf !=null && hs != null){
+            ListNode temp = hf.next;
+            hf.next = hs;
+            hf = temp;
+
+            temp = hs.next;
+            hs.next = hf;
+            hs = temp;
+        }
+        if(hf != null){
+            hf.next = null;
+        }
+    }
+
+    //61. Rotate List
+    public ListNode rotateRight(ListNode head, int k) {
+        if(head == null || head.next == null){
+            return head;
+        }
+        ListNode temp = head;
+        int length = 1;
+        while(temp.next != null){
+            length += 1;
+            temp = temp.next;
+        }
+        ListNode prev = null;
+        ListNode curr = head;
+        ListNode next = head.next;
+        for(int i = 0; i < (k%length); i++){
+            prev = null;
+            curr = head;
+            next = head.next;
+            while(next != null){
+                prev = curr;
+                curr = next;
+                next = next.next;
+            }
+            curr.next = head;
+            head = curr;
+            prev.next = null;
+        }
         return head;
     }
     public static void main(String[] args) {
