@@ -7,9 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="Linked-List&#10;problems">
+    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="Linked-List&#10;problems leetcode">
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/StackQueue/CustomStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DSA/LinkedLists/Problems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DSA/LinkedLists/Problems.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,36 +53,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.ArtShift.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CircularLLI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountSort.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.CycleI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DoublyLLI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HammingDistance.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashSet.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InsertRec.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LL1I.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LLI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PowerOfTwoMaxHeap.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Java/MyJava/DSA_Hanzala&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.ArtShift.executor": "Run",
+    "Application.CircularLLI.executor": "Run",
+    "Application.CountSort.executor": "Debug",
+    "Application.CustomStack.executor": "Run",
+    "Application.CycleI.executor": "Run",
+    "Application.DoublyLLI.executor": "Run",
+    "Application.HammingDistance.executor": "Run",
+    "Application.HashSet.executor": "Run",
+    "Application.InsertRec.executor": "Run",
+    "Application.LL1I.executor": "Run",
+    "Application.LLI.executor": "Run",
+    "Application.Lain.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.PowerOfTwoMaxHeap.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TODO_SCOPE": "All Places",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Java/MyJava/DSA_Hanzala",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
-  <component name="RunManager" selected="Application.HammingDistance">
+}]]></component>
+  <component name="RunManager">
     <configuration name="HammingDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CodeVita.HammingDistance" />
       <module name="DSA_Hanzala" />
@@ -503,7 +504,7 @@
       <option name="project" value="LOCAL" />
       <updated>1702052076334</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -519,7 +520,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="DSA: subset" />
     <MESSAGE value="DSA: subset duplicate" />
     <MESSAGE value="DSA: Permutation" />
     <MESSAGE value="DSA: Permutation Problems" />
@@ -544,7 +544,8 @@
     <MESSAGE value="Doubly Linked-List" />
     <MESSAGE value="Circular Linked-List" />
     <MESSAGE value="Linked-List&#10;problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linked-List&#10;problems" />
+    <MESSAGE value="Linked-List&#10;problems leetcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linked-List&#10;problems leetcode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
