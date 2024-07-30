@@ -7,8 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="Linked-List&#10;problems leetcode">
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/StackQueue/CustomStack.java" afterDir="false" />
+    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="Stack">
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/StackQueue/CustomQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +59,7 @@
     "Application.ArtShift.executor": "Run",
     "Application.CircularLLI.executor": "Run",
     "Application.CountSort.executor": "Debug",
+    "Application.CustomQueue.executor": "Run",
     "Application.CustomStack.executor": "Run",
     "Application.CycleI.executor": "Run",
     "Application.DoublyLLI.executor": "Run",
@@ -504,7 +505,7 @@
       <option name="project" value="LOCAL" />
       <updated>1702052076334</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -520,7 +521,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="DSA: subset duplicate" />
     <MESSAGE value="DSA: Permutation" />
     <MESSAGE value="DSA: Permutation Problems" />
     <MESSAGE value="DSA: Maze problem" />
@@ -545,7 +545,8 @@
     <MESSAGE value="Circular Linked-List" />
     <MESSAGE value="Linked-List&#10;problems" />
     <MESSAGE value="Linked-List&#10;problems leetcode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linked-List&#10;problems leetcode" />
+    <MESSAGE value="Stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
