@@ -60,9 +60,9 @@ class MyCircularQueue {
     public static void main(String[] args) {
         //Your MyCircularQueue object will be instantiated and called as such:
         MyCircularQueue obj = new MyCircularQueue(5);
-        boolean param_11 = obj.enQueue(6);
-        boolean param_12 = obj.enQueue(67);
-        boolean param_13 = obj.enQueue(53);
+        boolean param_11 = obj.enQueue(1);
+        boolean param_12 = obj.enQueue(2);
+        boolean param_13 = obj.enQueue(3);
         boolean param_2 = obj.deQueue();
         int param_3 = obj.Front();
         int param_4 = obj.Rear();
