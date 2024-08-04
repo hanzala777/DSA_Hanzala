@@ -7,8 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="Queues &amp; Stacks &#10;Problems">
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/Arrays/SecondLargest.java" afterDir="false" />
+    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="Problems">
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/StackQueue/TwoStacks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +73,7 @@
     "Application.MyCircularQueue.executor": "Run",
     "Application.PowerOfTwoMaxHeap.executor": "Run",
     "Application.SecondLargest.executor": "Run",
+    "Application.TwoStacks.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TODO_SCOPE": "All Places",
@@ -507,7 +508,7 @@
       <option name="project" value="LOCAL" />
       <updated>1702052076334</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -523,7 +524,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="DSA: Debugging recursion problems" />
     <MESSAGE value="DSA: maze problem" />
     <MESSAGE value="DSA: maze problem with backtracking" />
     <MESSAGE value="DSA: problems with backtracking" />
@@ -548,7 +548,8 @@
     <MESSAGE value="Queue" />
     <MESSAGE value="Circular Queue" />
     <MESSAGE value="Queues &amp; Stacks &#10;Problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="Queues &amp; Stacks &#10;Problems" />
+    <MESSAGE value="Problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="Problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
