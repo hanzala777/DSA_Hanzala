@@ -32,7 +32,7 @@ public class MinInsertion {
     }
 
     public static void main(String[] args) {
-        String s = "(()))";
+        String s = "(()))))";
         System.out.println(minInsertions(s));
     }
 }
