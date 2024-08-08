@@ -2,7 +2,7 @@ package com.DSA.BinaryTree;
 
 import java.util.Scanner;
 
-public class BT {
+public class BTree {
     private static class Node{
         private final int value;
         private Node left;
@@ -50,7 +50,7 @@ public class BT {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        BT tree = new BT();
+        BTree tree = new BTree();
         tree.populate(scanner);
         tree.display();
     }
