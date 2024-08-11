@@ -76,10 +76,50 @@ public class BST {
         display("right child of " + node.getValue() + " : ", node.right );
     }
 
+    public void preOrder() {
+        preOrder(root);
+    }
+    private void preOrder(Node node){
+        if(node == null){
+            return;
+        }
+        System.out.print(node.value + " ");
+        preOrder(node.left);
+        preOrder(node.right);
+    }
+    public void inOrder() {
+        inOrder(root);
+    }
+    private void inOrder(Node node){
+        if(node == null){
+            return;
+        }
+        inOrder(node.left);
+        System.out.print(node.value + " ");
+        inOrder(node.right);
+    }
+    public void postOrder() {
+        postOrder(root);
+    }
+    private void postOrder(Node node){
+        if(node == null){
+            return;
+        }
+        postOrder(node.left);
+        postOrder(node.right);
+        System.out.print(node.value + " ");
+    }
+
     public static void main(String[] args) {
         BST bst = new BST();
         bst.populate(new int[]{5, 3, 2, 4, 7, 6, 8});
         bst.display();
+        bst.preOrder();
+        System.out.println();
+        bst.inOrder();
+        System.out.println();
+        bst.postOrder();
+        System.out.println();
         System.out.println(bst.balanced());
     }
 }
