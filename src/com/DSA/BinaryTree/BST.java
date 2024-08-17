@@ -112,7 +112,7 @@ public class BST {
 
     public static void main(String[] args) {
         BST bst = new BST();
-        bst.populate(new int[]{7, 3, 2, 4, 5, 6, 8, 9, 1, 10, 11});
+        bst.populate(new int[]{7, 12, 13, 14, 3, 2, 4, 5, 6, 8, 9, 1, 10, 11});
         bst.display();
         bst.preOrder();
         System.out.println();
