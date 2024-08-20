@@ -130,7 +130,7 @@ public class AVLTree {
 
     public static void main(String[] args) {
         AVLTree tree = new AVLTree();
-        for (int i = 0; i < 20; i++){
+        for (int i = 0; i < 24; i++){
             tree.insert(i);
         }
         tree.display();
