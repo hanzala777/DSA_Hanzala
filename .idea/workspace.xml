@@ -7,7 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="Pattern4" />
+    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="Pattern4">
+      <change afterPath="$PROJECT_DIR$/src/com/DSA/BinaryTree/SegmentTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,50 +53,71 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.AVLTree.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArtShift.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BST.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BT.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BTree.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BalancedParentheses.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CircularLLI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountSort.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.CustomQueue.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CustomStack.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CycleI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DoublyLLI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HammingDistance.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashSet.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InsertRec.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LL1I.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LLI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MakeValid.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinInsertion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyCircularQueue.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Pattern3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Pattern9.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PowerOfTwoMaxHeap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SecondLargest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TwoStacks.executor&quot;: &quot;Run&quot;,
-    &quot;Application.pattern10.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Java/MyJava/DSA_Hanzala&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.AVLTree.executor": "Run",
+    "Application.ArtShift.executor": "Run",
+    "Application.BST.executor": "Run",
+    "Application.BT.executor": "Run",
+    "Application.BTree.executor": "Run",
+    "Application.BalancedParentheses.executor": "Run",
+    "Application.CircularLLI.executor": "Run",
+    "Application.CountSort.executor": "Debug",
+    "Application.CustomQueue.executor": "Run",
+    "Application.CustomStack.executor": "Run",
+    "Application.CycleI.executor": "Run",
+    "Application.DoublyLLI.executor": "Run",
+    "Application.HammingDistance.executor": "Run",
+    "Application.HashSet.executor": "Run",
+    "Application.InsertRec.executor": "Run",
+    "Application.LL1I.executor": "Run",
+    "Application.LLI.executor": "Run",
+    "Application.Lain.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MakeValid.executor": "Run",
+    "Application.MinInsertion.executor": "Run",
+    "Application.MyCircularQueue.executor": "Run",
+    "Application.Pattern3.executor": "Run",
+    "Application.Pattern9.executor": "Run",
+    "Application.PowerOfTwoMaxHeap.executor": "Run",
+    "Application.SecondLargest.executor": "Run",
+    "Application.SegmentTree.executor": "Run",
+    "Application.TwoStacks.executor": "Run",
+    "Application.pattern10.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TODO_SCOPE": "All Places",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Java/MyJava/DSA_Hanzala",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="SegmentTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.DSA.BinaryTree.SegmentTree" />
+      <module name="DSA_Hanzala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.DSA.BinaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SegmentTree" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -453,7 +477,7 @@
       <option name="project" value="LOCAL" />
       <updated>1702052076334</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
