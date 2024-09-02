@@ -7,10 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="Pattern4">
-      <change afterPath="$PROJECT_DIR$/src/com/DSA/BinaryTree/SegmentTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a12e8a8a-8c8a-4c97-8f90-8108a63f623b" name="Changes" comment="Binary Tree&#10;Segment Tree" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -477,7 +474,7 @@
       <option name="project" value="LOCAL" />
       <updated>1702052076334</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -493,7 +490,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="DSA : Linked List -&gt; insert, remove, search" />
     <MESSAGE value="CodeVita: problems solved" />
     <MESSAGE value="forage task" />
     <MESSAGE value="Maps/Dictionaries" />
@@ -518,7 +514,8 @@
     <MESSAGE value="Self Balancing Binary tree&#10;AVL Tree" />
     <MESSAGE value="Pattern10" />
     <MESSAGE value="Pattern4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pattern4" />
+    <MESSAGE value="Binary Tree&#10;Segment Tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Binary Tree&#10;Segment Tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
